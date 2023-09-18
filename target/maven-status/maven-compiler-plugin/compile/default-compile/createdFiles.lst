@@ -1,0 +1,6 @@
+Framework\Browser\DriverManager.class
+Framework\TestBase.class
+Framework\Browser\DriverManager$1.class
+Framework\Utils\FilesOperation.class
+Framework\Browser\TypeBrowser.class
+Framework\Browser\Waits.class
