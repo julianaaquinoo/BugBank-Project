@@ -1,4 +1,4 @@
-package Framework.Browser;
+package ToolBox.Browser;
 
 public enum TypeBrowser {
 

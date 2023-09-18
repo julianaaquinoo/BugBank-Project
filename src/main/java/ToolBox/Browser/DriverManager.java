@@ -1,4 +1,4 @@
-package Framework.Browser;
+package ToolBox.Browser;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

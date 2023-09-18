@@ -1,8 +1,7 @@
 package Tasks;
 
-import Framework.Utils.FilesOperation;
+import ToolBox.Utils.FilesOperation;
 import PageObjects.CadastroPage;
-import PageObjects.TransferenciaPage;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;

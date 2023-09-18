@@ -1,4 +1,4 @@
-package Framework.Utils;
+package ToolBox.Utils;
 
 import java.io.*;
 import java.util.Properties;

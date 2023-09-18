@@ -3,7 +3,7 @@ package Tasks;
 import PageObjects.TransferenciaPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import Framework.Utils.FilesOperation;
+import ToolBox.Utils.FilesOperation;
 
 import java.io.IOException;
 

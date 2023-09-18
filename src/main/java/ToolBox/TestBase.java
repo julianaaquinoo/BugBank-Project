@@ -1,8 +1,8 @@
-package Framework;
+package ToolBox;
 
-import Framework.Browser.DriverManager;
-import Framework.Browser.TypeBrowser;
-import Framework.Utils.FilesOperation;
+import ToolBox.Browser.DriverManager;
+import ToolBox.Browser.TypeBrowser;
+import ToolBox.Utils.FilesOperation;
 import org.junit.Before;
 import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.WebDriver;
