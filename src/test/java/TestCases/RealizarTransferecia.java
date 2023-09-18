@@ -11,9 +11,7 @@ import ToolBox.TestBase;
 
 public class RealizarTransferecia extends TestBase{
 
-
     private WebDriver driver = getDriver();
-
     TransferenciaTask transferenciaTask = new TransferenciaTask(driver);
     CadastroTask cadastroTask = new CadastroTask(driver);
 
@@ -23,11 +21,5 @@ public class RealizarTransferecia extends TestBase{
         cadastroTask.realizarCadastro2();
         transferenciaTask.realizarTransferencia();
         transferenciaTask.validarTransferencia();
-
-
     }
-
-
-
-
 }

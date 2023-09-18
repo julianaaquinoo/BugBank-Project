@@ -19,8 +19,6 @@ public class TransferenciaTask {
         transferenciaPage = new TransferenciaPage(this.driver);
     }
 
-
-
     public void realizarTransferencia(){
 
         transferenciaPage.getEmailLogin().sendKeys("123@automacao.com.br");
@@ -67,7 +65,6 @@ public class TransferenciaTask {
         Assert.assertEquals(validaSaldo1,transferenciaPage.saldoConta1().getText());
 
         transferenciaPage.btnSair().click();
-
     }
 
     public void validarTransferencia(){
@@ -88,7 +85,7 @@ public class TransferenciaTask {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        String validaSaldo2 = "Saldo em conta R$ 500,00";
+        String validaSaldo2 = "Saldo em conta R$ 1.500,00";
         Assert.assertEquals(validaSaldo2, transferenciaPage.saldo().getText());
 
     }

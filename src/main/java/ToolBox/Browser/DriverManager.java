@@ -39,13 +39,10 @@ public class DriverManager {
         if (driver == null) {
 
             driver = getManagerDriver(type);
-
         }
 
         return driver;
-
     }
-
 
     public static void quitDriver() {
 

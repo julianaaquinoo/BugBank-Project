@@ -36,7 +36,6 @@ public class TransferenciaPage {
     public WebElement saldo(){
 
         return waits.visibilityOfElement((By.xpath("//p[@id= 'textBalance']")));
-
     }
 
     public WebElement btnTransferencia(){
@@ -92,13 +91,11 @@ public class TransferenciaPage {
     public WebElement saldoConta1(){
 
         return waits.visibilityOfElement((By.xpath("//p[@id= 'textBalanceAvailable']")));
-
     }
 
     public WebElement btnSair(){
 
         return waits.visibilityOfElement(By.id("btnExit"));
-
     }
 
 }

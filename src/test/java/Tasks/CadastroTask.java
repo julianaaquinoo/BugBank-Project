@@ -16,8 +16,6 @@ public class CadastroTask {
         this.driver =driver;
 
         cadastroPage = new CadastroPage(this.driver);
-
-
     }
 
     public void realizaCadastro1(){
@@ -31,7 +29,6 @@ public class CadastroTask {
         cadastroPage.btnCadastrar().click();
         cadastroPage.numeroDaConta().getText();
         cadastroPage.btnFechar().click();
-
     }
 
     public void realizarCadastro2(){
@@ -45,7 +42,6 @@ public class CadastroTask {
         cadastroPage.getSenha().sendKeys("1234");
         cadastroPage.getconfirmaSenha().clear();
         cadastroPage.getconfirmaSenha().sendKeys("1234");
-        cadastroPage.getSaldo().click();
         cadastroPage.btnCadastrar().click();
         cadastroPage.numeroDaConta().getText();
         cadastroPage.digitoDaConta().getText();
@@ -60,7 +56,6 @@ public class CadastroTask {
             FilesOperation.setProperty("conta", "digitoConta", digitoDaConta);
         } catch (IOException e) {
             throw new RuntimeException(e);
-
         }
 
         cadastroPage.btnFechar().click();

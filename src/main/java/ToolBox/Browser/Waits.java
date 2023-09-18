@@ -15,7 +15,6 @@ public class Waits {
     public Waits(WebDriver driver){
 
         this.driver = driver;
-
     }
 
     public WebElement visibilityOfElement(By by){
@@ -37,7 +36,5 @@ public class Waits {
             return element;
         }
     }
-
-
 }
 

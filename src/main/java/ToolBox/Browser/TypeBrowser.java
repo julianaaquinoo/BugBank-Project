@@ -5,5 +5,4 @@ public enum TypeBrowser {
     CHROME,
 
     FIREFOX,
-
 }

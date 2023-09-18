@@ -17,17 +17,14 @@ public class CadastroPage {
         waits = new Waits(this.driver);
     }
 
-
     public WebElement btnRegistrar(){
 
         return waits.visibilityOfElement(By.xpath("//button[contains(text(), 'Registrar') and contains(@class, 'style__ContainerButton')]"));
-
     }
 
     public WebElement getemail(){
 
         return waits.visibilityOfElement(By.xpath("//form[@class='styles__ContainerFormRegister-sc-7fhc7g-0 keVbpY']//input[@type='email' and @class='input__default' and @name='email']"));
-
     }
 
     public WebElement getNome(){
@@ -52,25 +49,19 @@ public class CadastroPage {
 
     public WebElement btnCadastrar(){
         return waits.visibilityOfElement(By.xpath("//button[normalize-space()='Cadastrar']"));
-
     }
 
     public WebElement numeroDaConta(){
 
         return waits.visibilityOfElement(By.id("modalText"));
-
     }
 
     public WebElement digitoDaConta(){
 
         return waits.visibilityOfElement(By.id("modalText"));
-
     }
 
     public WebElement btnFechar(){
         return waits.visibilityOfElement(By.xpath("//a[@id='btnCloseModal' and @class='styles__Button-sc-8zteav-5 gyHUvN']"));
-
     }
-
-
 }
